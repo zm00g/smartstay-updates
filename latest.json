@@ -1,19 +1,19 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "notes": "See CHANGELOG.md for details.",
-  "pub_date": "2026-05-15T17:43:19Z",
+  "pub_date": "2026-05-15T19:08:42Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdnp4a3N2dHdMVjJJRVFNVkM5WmpveHU2UlJhblhRQ3Q0aHBVZVJKY1kzS0FSN0lwb0dTc3Q4Wkp1VVRUTjdkSDBubHFIQXEvRTNPeFlleFc1RjcxZWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODY2MzM5CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuM19hbWQ2NC5BcHBJbWFnZQorbm41cTdzV21OejAxRE1EaWhCMEozN3JWcmQ2WTNGSEFYd05DemRxM2Nsc1NkdFZZWFg3eDJnN282V2RTVENUdUVYeHUrUmtsb0t5S2t1aHh4RW1EZz09Cg==",
-      "url": "https://github.com/zm00g/SmartStay-PMS/releases/download/v0.1.3/SmartStay.PMS_0.1.3_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdndESUNsVmNjMkpvR0pyeTVxa2M2bTdXMjc3eFl4Mzl5WCswUmIxWS9GWWphbVFHNHpqSUVjL0NlUUtJTW1ueWlQcnZldHkrMEd1MFZlem83NFRmMUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODcxMjAzCWZpbGU6U21hcnRTdGF5IFBNU18wLjEuNF9hbWQ2NC5BcHBJbWFnZQpCTHozbThVaXh5MlhhMFd5UTAxck0rcUdtbE5LZ2NqTjI4dndGWFBTelVreTd1dzJWTzBTNVlLVGpRL2ZKaTU0Q0N1aXdyeGtMM1h5dUc2cE5wSlVBQT09Cg==",
+      "url": "https://github.com/zm00g/SmartStay-PMS/releases/download/v0.1.4/SmartStay.PMS_0.1.4_amd64.AppImage"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjd1LzRFNDh6NnJWM0FPcy9QeHdWaHM2RXM3WGY2VlR6My90blZvdWVZOVlJeEpTUG5QSEZjc0poSE5ORGFJVUtsN1lsbUc1R3VuRStFZmhKWGRITndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODY1OTk0CWZpbGU6U21hcnRTdGF5IFBNUy5hcHAudGFyLmd6Ckd3emFoQW8rYVRFbjNtTnA5NGpFNGxlZmRtMXFadnUxQUhNSTYvaXAvMDNiZXZEOWNhdVlDSE9PRnBXdTVOaWZUSHpnKzJCanlUZ0dZbnBZa29Na0JBPT0K",
-      "url": "https://github.com/zm00g/SmartStay-PMS/releases/download/v0.1.3/SmartStay.PMS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjNNejNBbFd0d1krSXFhaXdMdlB0UjZ2NkVLb2IzTnBJOW5QS0xjeEpGZFRiVndOSFQ2QzRJMFBXMXAzTGRXMUM2aTVIWVI3U1piREt6R2tNKzJTWWdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODcxMTA2CWZpbGU6U21hcnRTdGF5IFBNUy5hcHAudGFyLmd6CjRXclc4eW4rUmxFcUI2Mkwva0djRkdqT3lrWWFYNThzNndXdFd3cmlVWHFHalRobVFsN291WmszY1pMbzkrKzNOdWxXRW5mRHh0SmxENkJ6STAxbkFRPT0K",
+      "url": "https://github.com/zm00g/SmartStay-PMS/releases/download/v0.1.4/SmartStay.PMS.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdnc3YkV6c2IvbDRIU0hHNmVuRXFQNjM0NG1hdURKWUd5cjVvMDk5SnZSZlBLRng5eVBIT0IxWFZpWHQ4OUZGTDIycjE5bHE1cFdqWWJWVjEwNnlheXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODY2NzA4CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuM194NjRfZW4tVVMubXNpCnRLcTg2b2NqcEVVK1I5b1REWDArU0JyYmxDMXlCSzRJZDRTckdleTErS2hIUFlmOGI5a1RVenpTVktBb0VCbjFZbjg0dGRGK3VCbm1ybGlaejltQUNRPT0K",
-      "url": "https://github.com/zm00g/SmartStay-PMS/releases/download/v0.1.3/SmartStay.PMS_0.1.3_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdng3ZTZybWJwUEgyYUkxVGZyUGtDdU9PcVZBV1hmdDJNa1Y1K25LY01HaWZ0QXd1dXVaY3Brd1kzZ0ZjWFIzOVZwSHRQZEhoQldlNXdDWWxBRzBSWGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc4ODcxODc0CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuNF94NjRfZW4tVVMubXNpClc1SDNUYWw5ZmRvS3h2V01DZml5Rk5JWGlrcUVBeHZKYkE5QTJCT0ozd0FDdXczVzRRYU9jeHFMQ1p6eU5sVVc1S2ZjaFQ1eTNuYTBOM2hJbHA5UkFRPT0K",
+      "url": "https://github.com/zm00g/SmartStay-PMS/releases/download/v0.1.4/SmartStay.PMS_0.1.4_x64_en-US.msi"
     }
   }
 }
