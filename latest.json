@@ -1,27 +1,27 @@
 {
-  "version": "0.1.9",
-  "notes": "### Fixed\n- Late checkout can be approved ahead of time. The time list now follows the reservation's departure date instead of today's clock, so a 12:30 late checkout for tomorrow can be selected today. Past times are greyed out only when the departure is today.\n- Approving a late checkout in advance no longer opens the Checkout dialog or posts the fee early. The time and agreed fee are recorded; the fee posts on the departure day when the desk applies it, and only then does checkout continue.\n\n### Added\n- An approved late checkout is shown on the Departures tab, the tape chart details, and the reservation details (\"late checkout 12:30 · $25.00 on departure\").\n- Confirmed (not yet arrived) reservations can carry an approved late checkout time.\n- Applying a different late-checkout fee after one has already posted is refused with a clear message instead of being silently ignored.",
-  "pub_date": "2026-10-07T18:46:57Z",
+  "version": "0.1.10",
+  "notes": "### Added\n- Walk-in button on Reservations: new guest, booking, and check-in in one flow. The form opens on today's business date with source \"Walk-in\", and saving continues straight into check-in (room assignment if needed, early-fee window, then the balance gate).\n- \"New guest\" inside the reservation form, so a first-time guest never needs a trip to the Guests page.\n- Reservation search works: by confirmation number, first or last name, full name, email, phone, or room number. Pasting an exact confirmation number opens that reservation's details directly. The In-House tab searches too.\n- Balance column on the reservation list: \"Owes $X\", \"Paid to date\", \"Settled\", or \"Not posted\".\n\n### Changed\n- The Late Checkout time list starts at your property's checkout time instead of a fixed 11:00.\n- Settings → General shows the property's name, code, and check-in / check-out times (read-only; editing comes in a later release).",
+  "pub_date": "2026-10-08T03:37:29Z",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjQ1RFFQS25CazRpQzJwRGNNY1JlMm5Bb040UDVUdEFIUzB2L1I5Y0xUU2dYdjlaR2VmM09Cc3RVazBRNzlMZUZTWlNVS2ZlSzhyOGFsK1BLT1dPUkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzk4MzQ1CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuOV9hbWQ2NC5BcHBJbWFnZQpNV2pVZnJDb1ppWXFwN2xTaDIvMmNiVk1zeDNWVmdIcXQ1WDFJalVOOHhaRzVCQXAyYnlGYzJHNURVWUJBM3hZZEx1UjgwemQvVndkRmdoRkUxZTZEUT09Cg==",
-      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.9/SmartStay.PMS_0.1.9_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjIydHVQTmVia3lWTU1GMkJWcndaVzhUdU4rbGhTbGNEckNHYmF6UENlK1pNQnR6N0tSR01pcW80ZHArVUNkUkU5dmxLMUlTNFZRejZzN2w5SGxtNGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDMwMDE5CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuMTBfYW1kNjQuQXBwSW1hZ2UKclFMRThpVXRnSVA3OGNzbC9BWGZ2aWpERkJGSGxOeFo4cTdUcXh6a2FtOUFzZXJvSG5ZNWVkQUFkSy9JSkJHNmNyOGs0ZlY2c0lsUEFKbWtmNy8vQVE9PQo=",
+      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.10/SmartStay.PMS_0.1.10_amd64.AppImage"
     },
     "linux-x86_64-rpm": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjg5WW5GSUlEL0R5YXRNcEJ0d3l6MmpNNWhSZUJxa25TcDl5M0tKOUxmQStjK1NnTnNTdUlIMGhocFljSVQwa3hVOVZrNlZsdCthMy9RNlJvenVlYmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzk4MzQ1CWZpbGU6U21hcnRTdGF5IFBNUy0wLjEuOS0xLng4Nl82NC5ycG0KVjBVSnA0K0ZBTkVFUFRYemRIM0FNM3g5Y3pWUkpUR2lrK3hNbFYxalNuMmZoQUQwUG9Uejl6dzZYTzkwZWRmbHlZa29HQ2RQVjBIZXUwM3dFa1hBQUE9PQo=",
-      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.9/SmartStay.PMS-0.1.9-1.x86_64.rpm"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjRFd0hwWkZmbERYVG5lL1JmQ3VLZTFRVnc5MHVMUElVekR5RXlXWEovbWdkdGY5QWpEb1A1b0V2VUlHeFdJZ21FbWtHTWE2ODlid2pZWTdka2c0eEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDMwMDE5CWZpbGU6U21hcnRTdGF5IFBNUy0wLjEuMTAtMS54ODZfNjQucnBtClJnUzAvdUdlSTZNVDNQM1VGMFZodlloRjBHVTFQSDdPRmRONzQ1OFpYaW9aZ0wxTWo3U3lNTGRWdkxPcVhyQUo0YkxHSEVLWVg4RGN0Uy9zRDJ1RUNnPT0K",
+      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.10/SmartStay.PMS-0.1.10-1.x86_64.rpm"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjhQL1ZQdlRJTjJOdGZMVER2cUtHMDFpM1g2Nkx4TFVFZGxnYnRnV28xNVJmMFdzeFFLbkhEQS9CZCs5U05tVURzZVdGODhCWE9DNjRKYXZYY212RFFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzk4MzQ1CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuOV9hbWQ2NC5kZWIKL3NyNlZ2M2ZJOTNNQXE1ajdaamFxaGZMRit4L1FGdksrajcvQ0hJSEJzaHVEUm9vYndSZ1ZhclBpVzlhOC9Ed3RtSDMyN0ZSSi9pNG9pdkplTlQ3QXc9PQo=",
-      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.9/SmartStay.PMS_0.1.9_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdi9ZWXdZbE9YUUtDNEZ1cXFOWFVidnVwcVp6WEp6dGtGZnhSQ0ZKbFU5dnVUQ3U1K3FENjYwZ3pDSmNFS0xqek1hMTB4TVFnVGtXNmJ4SFJidWhPZEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDMwMDE5CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuMTBfYW1kNjQuZGViCkh4MmJUeVBjK0s1Y0hvdEk4K3RnNlpybDhDQ3ZWeHp3cjhHVmdELzVtOUhFT0t5YXIvbWQ4VFppWnErT2pnd3BiUlpScmdEcEd2VStsU2phZTlkekFBPT0K",
+      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.10/SmartStay.PMS_0.1.10_amd64.deb"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjgvVjlzRkh4UjZEWlBUekk4YUF3elRidnk1bFJoRjNhZm8yenNoWFduNnE0aU5saW4wVVZRTnFIQjVZbWNtWEJWZHVPYWFMYUFmWlhIVnlUeDBSc0E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzk3NjkxCWZpbGU6U21hcnRTdGF5IFBNUy5hcHAudGFyLmd6Ci9iaFZueUZVV1NnSEpCZUtuVHBOQWVHbEMxU0p2V0grSkFYWmRnOS8zNmxWYmo5Rm5TUzJGU3NBajBON0N0VkxlTkRXRXhwWEgwdzhVcU03ZHg3d0F3PT0K",
-      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.9/SmartStay.PMS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdnd6U3FDb2pRb1JIZUp4d0JDVFZhb2xCODlNUVNCREZqY1ROVm5FcW15ZVFwNWhPTWRrQ2hBa1V2UGFUd1YwNEtkRnhhYjl4TGdWM1pLUThXRnlsMXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDI5NDMyCWZpbGU6U21hcnRTdGF5IFBNUy5hcHAudGFyLmd6CjYzNDhuaGVoUzRTYkN0eS9wWndaWnd6Zm9pWC9VNnJaRHRHSXUrckU2VWJVS00vV0FpZzh2QXl1M1kxUkZFdk9hbzZlV0o5MnhKTTNYc0JGMCtpeER3PT0K",
+      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.10/SmartStay.PMS.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjZwd2pldFdyWjdFODYyL1hQZ2M1NXpXbExzOTI2NW82Y3BEazVRT0NMaWladktZM09VWW5yRW9nVW16SDhFc3FQRVMrZlR0UU5aL3JyWVNLWDhydHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzk4NjU3CWZpbGU6U21hcnRTdGF5IFBNU18wLjEuOV94NjRfZW4tVVMubXNpClBhbW1hak9kMWtvTmNTSnoxcDBqeTNMYTdzM0FpNmNGNGI0WTMvMVJrN0FIRThmRlZhemp3Wk5JY2lHYmREdlZWaUprd3RmZHdnODJGQ1ovQ3lZR0J3PT0K",
-      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.9/SmartStay.PMS_0.1.9_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUaEg3RENQK00vdjZ1WFdIYWlZdDc0YnZJaklSbzVoaW1jcks4bnVXVWJyeDBUYTlxRWtZVzZVVEZYMTQxd29obERSaXVVK0F1V3prQUtQL3Z2eUhZeHJvcmVzVk1IN2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNDMwNDMyCWZpbGU6U21hcnRTdGF5IFBNU18wLjEuMTBfeDY0X2VuLVVTLm1zaQpIYTc0SUhubFZNRDEyVWFpQzJtQXZIT0w0dEhsZDJ0U0Q0TDk4N0NnQTJ5aXlXRGRCUVRoUEFEOHFZNmpBQ09EeGFQLzhBVm5kZjhLbkVHQXZXa09Cdz09Cg==",
+      "url": "https://github.com/zm00g/smartstay-updates/releases/download/v0.1.10/SmartStay.PMS_0.1.10_x64_en-US.msi"
     }
   }
 }
